@@ -1,5 +1,5 @@
 # ---- Output / results ----
-results.txt
+*summary.txt
 *.out
 *.log
 
