@@ -29,6 +29,13 @@ Run the program from the comman line:
 fastqstats /path/to/file.fastq
 
 ```
+Or with optional parameter:
+
+```bash
+
+fastqstats /path/to/file.fastq --base-quality-warn 20
+
+```
 
 The program writes the results file to disk and prints the output path to the terminal.
 
