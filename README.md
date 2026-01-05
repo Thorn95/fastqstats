@@ -1,18 +1,10 @@
-\# fastqstats
-
-
+# fastqstats
 
 fastqstats is a command-line tool for basic quality control and summary statistics of FASTQ files.
 
-
-
 ---
 
-
-
-\## Installation
-
-
+## Installation
 
 Clone the repository and install it in editable mode:
 
@@ -24,79 +16,50 @@ cd fastqstats
 
 pip install -e .
 
-
+```
 
 ---
 
-
-
-\## Usage
-
-
+## Usage
 
 Run the program from the comman line:
 
-
+```bash
 
 fastqstats /path/to/file.fastq
 
-
+```
 
 The program writes the results file to disk and prints the output path to the terminal.
 
-
-
 ---
 
-
-
-\## Options
-
-
+## Options
 
 To see all available command-line options and default thesholds, run:
 
-
+```bash
 
 fastqstats --help
 
-
+```
 
 ---
 
-
-
-\## Input
-
-
+## Input
 
 * FASTQ file (Phred+33 encoded)
 
-
-
 ---
 
-
-
-\## Output
-
-
+## Output
 
 A text file containing summary statistics and quality classifications (PASS, Warning, FAIL).
 
-
-
 ---
 
-
-
-\## Author
-
-
+## Author
 
 Martin Törn
 
-
-
 ---
-
