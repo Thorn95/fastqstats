@@ -62,8 +62,8 @@ A text file containing summary statistics and quality classifications (PASS, War
 
 A Jupyter notebook demonstrating `fastqstats` usage is available in `documentation/`:
 
-- [`Project_fastq.ipynb`](documentation/Project_fastq.ipynb) - interactive environment with python
-- [`Project_fastq.html`](documentation/Project_fastq.html) - view in browser without python
+- [`Project_fastq.ipynb`](Fastq_qc_sum_program/documentation/Project_fastq.ipynb) - interactive environment with python
+- [`Project_fastq.html`](Fastq_qc_sum_program/documentation/Project_fastq.html) - view in browser without python
 
 ---
 
