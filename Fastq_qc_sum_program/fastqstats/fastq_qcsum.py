@@ -150,24 +150,6 @@ def adapter_find(seq_array):
 
     return adapter_counts 
 
-# #Quality check
-# def quality_check(value, warn, fail):
-#     """
-#     Evaluates the quality of values with cutoffs for warning and fail.
-
-#     Args: 
-#        float: Takes a float as input.
-
-#     Return: 
-#        str: returns a string that represents the quality assesment in regards to set cutoffs.
-#     """
-#     if value < fail:
-#         return "FAIL"
-#     elif value < warn:
-#         return "Warning"
-#     return "PASS"
-
-
 #Main function
 def stats_fastq(
     fastq_path,
@@ -279,20 +261,5 @@ def stats_fastq(
             adapter_status = "PASS"
 
         r.write(f"Adapter content: {adapter_status} \n")
-        
-        """
-        #Quality check
-        r.write(f"\n Quality assessment \n")
-        #Per Base Sequence Quality
-        r.write(f"Per Base Sequence Quality: {quality_check(base_quality, base_quality_warn, base_quality_fail)} \n")
 
-        #Per Base Sequence Content  
-        r.write(f"Per Base Sequence content: {quality_check((np.any(base_content)), base_content_warn, base_content_fail)} \n")
-
-        #Per Read Quality    
-        r.write(f"Per Read Quality: {quality_check((np.any(read_quality)), read_quality_warn, read_quality_fail)} \n")
- 
-        #Adapter content
-        r.write(f"Adapter content: {quality_check((np.any(adapter_content)), adapter_warn, adapter_fail)} \n")
-        """
     return results_file
