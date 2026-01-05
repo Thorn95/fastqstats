@@ -1,0 +1,27 @@
+# ---- Output / results ----
+results.txt
+*.out
+*.log
+
+# ---- Python cache ----
+__pycache__/
+*.py[cod]
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+
+# ---- Packaging / build ----
+build/
+dist/
+*.egg-info/
+
+# ---- IDE / editor files ----
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
