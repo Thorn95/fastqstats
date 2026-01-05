@@ -1,0 +1,14 @@
+[project]
+name = "fastqstats"
+version = "0.1.0"
+description = "A FASTQ Quality control and summary tool"
+authors = [
+	{name = "Martin Törn"}
+]
+dependencies = [
+	"numpy",
+	"pandas"
+]
+
+[project.scripts]
+fastqstats = "fastqstats.cli:main"
