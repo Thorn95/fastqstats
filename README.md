@@ -65,6 +65,17 @@ A text file containing summary statistics and quality classifications (PASS, War
 
 ---
 
+## File manifest
+
+- `Fastq_qc_sum_program/fastqstats/cli.py` - command-line interface
+- `Fastq_qc_sum_program/fastqstats/fastq_qcsum.py` - main functions for FASTQ analysis
+- `Fastq_qc_sum_program/fastqstats/Example_files` - small example FASTQ files
+- `README.md` - instructions and overview
+- `Fastq_qc_sum_program/documentation` - documentation notebook
+- `.gitignore` - files/folders ignored by Git
+
+---
+
 ## Documentation
 
 A Jupyter notebook demonstrating `fastqstats` usage is available in `documentation/`:
